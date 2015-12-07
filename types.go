@@ -19,4 +19,5 @@ type DnsConfig struct {
 	Override    bool     `yaml:"override"`
 	Nameservers []string `yaml:"nameservers,flow,omitempty"`
 	Search      []string `yaml:"search,flow,omitempty"`
+	Options     []string `yaml:"options,flow,omitempty"`
 }
